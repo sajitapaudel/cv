@@ -13,8 +13,15 @@
       <li><a href="https://www.facebook.com/sajita.paudel.71/">facebook</a></li>
       <li><a href="https://www.linkedin.com/sajita.paudel/">linkedin</a></li>
     </ul>
-
-    <form action="">
+    <h3>would you like to send me about you using form below?</h3>
+    <h4>
+      after filled out all, don't forgot to click on submit button at the end.
+    </h4>
+    <form
+      action="mailto:sajitapaudel016@gmail.com"
+      method="post"
+      enctype="text/plain"
+    >
       <div>
         <label for="">username</label>
 
@@ -25,7 +32,14 @@
         <input type="password" required />
       </div>
       <div>
-        <h3>select your favourite language</h3>
+        <h3>gender</h3>
+        <label for="">male</label>
+        <input type="radio" name="gender" />
+        <label for="">female</label>
+        <input type="radio" name="gender" />
+      </div>
+      <div>
+        <h3>select your favourite fruits</h3>
         <label for="">apple</label>
         <input type="checkbox" />
         <br />
@@ -34,6 +48,13 @@
         <br />
         <label for="">orange</label>
         <input type="checkbox" />
+        <br />
+        <label for="">avocado</label>
+        <input type="checkbox" />
+      </div>
+      <div>
+        <h4>includes some comments also...</h4>
+        <textarea name="" id="" cols="30" rows="10"></textarea>
       </div>
       <div>
         <input type="submit" />
